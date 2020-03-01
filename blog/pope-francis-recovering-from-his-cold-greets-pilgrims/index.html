@@ -407,74 +407,9 @@
 <script>
 var userLang = navigator.language || navigator.userLanguage;
 
+	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/pop-rumor">News</a></li>'); 
+	$("#navbar_top").html(' <a href="http://rumor.face8ook.org/series/pop-rumor">More Rumors➜➜</a>');
 
-
-if(userLang) {
- if (userLang=='zh-TW'){
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/charity">公益</a></li>'); 
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/funny">好笑影片</a></li>'); 
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/politics1">政治</a></li>');
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/virus-tw1">武漢肺炎</a></li>');
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/forex">外匯</a></li>');
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/539seo-歷史">歷史</a></li>');
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/動物1"">寵物</a></li>');
-	$("#navbar_top").html(' <a href="http://rumor.face8ook.org/series/rumor">More Rumors➜➜</a>');
-
- }else if (userLang=='en-US' || userLang=='en' ) {
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/psl-2020">PSL 2020</a></li>');
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/forex">Forex</a></li>');
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/funny">Funny Videos</a></li>'); 
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/categories/english">English</a></li>');
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/charity">Charity</a></li>'); 
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/pakistan-video">Videos</a></li>');
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/pakistan">Pakistan</a></li>');
-
-	$("#navbar_top").html(' <a href="http://rumor.face8ook.org/series/rumor">More Rumors➜➜</a>');
-
-	if (window.location.href=='/' || window.location.href=='http://www.face8ook.org/' || window.location.href=='http://www.face8ook.org' ){
-     	window.location.replace("/categories/english");
-    }
- }else if (userLang=='vi') {
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/funny">Funny Videos</a></li>'); 
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/categories/english">English</a></li>');
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/forex">Forex</a></li>');
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/categories/vietnam">Vietnam</a></li>');
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/psl-2020">PSL 2020</a></li>');
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/charity">Charity</a></li>'); 
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/pakistan-video">Videos</a></li>');
-	$("#navbar_top").html(' <a href="http://rumor.face8ook.org/series/rumor">More Rumors➜➜</a>');
-
-	if (window.location.href=='/' || window.location.href=='//www.face8ook.org/' || window.location.href=='//www.face8ook.org' ){
-     	window.location.replace("/categories/vietnam");
-    }
-	
- }else if (userLang=='ja') {
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/funny">Funny Videos</a></li>'); 
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/categories/english">English</a></li>');
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/forex">Forex</a></li>');
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/charity">Charity</a></li>'); 
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/categories/japan">Japanese</a></li>');
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/psl-2020">PSL 2020</a></li>');
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/pakistan-video">Videos</a></li>');
-	$("#navbar_top").html(' <a href="http://rumor.face8ook.org/series/rumor">More Rumors➜➜</a>');
-
-	if (window.location.href=='/' || window.location.href=='//www.face8ook.org/' || window.location.href=='//www.face8ook.org' ){
-     	window.location.replace("/categories/japan");
-    }
-	
- }else{
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/funny">Funny Videos</a></li>'); 
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/categories/english">English</a></li>');
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/forex">Forex</a></li>');
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/psl-2020">PSL 2020</a></li>');
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/charity">Charity</a></li>'); 
-	$("#mymenu").append(' <li class="nav-item"><a class="nav-link" href="http://rumor.face8ook.org/series/pakistan-video">Videos</a></li>');
-	$("#navbar_top").html(' <a href="http://rumor.face8ook.org/series/rumor">More Rumors➜➜</a>');
-
- }
-
-}else{
-}
 </script>
 
 
