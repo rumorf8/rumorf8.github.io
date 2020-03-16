@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://rumor.face8ook.org/</loc>
+    <lastmod>2020-03-16T12:33:49+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://rumor.face8ook.org/categories/</loc>
     <lastmod>2020-03-16T12:33:49+08:00</lastmod>
   </url>
@@ -14,11 +19,6 @@
   
   <url>
     <loc>http://rumor.face8ook.org/drama/</loc>
-    <lastmod>2020-03-16T12:33:49+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://rumor.face8ook.org/</loc>
     <lastmod>2020-03-16T12:33:49+08:00</lastmod>
   </url>
   
