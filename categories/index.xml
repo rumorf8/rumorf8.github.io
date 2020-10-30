@@ -6,10 +6,15 @@
     <description>Recent content in Categories on 539韓劇</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2020 15:01:02 +0800</lastBuildDate>
-    
-	<atom:link href="http://rumor.face8ook.org/categories/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sat, 31 Oct 2020 07:12:03 +0800</lastBuildDate><atom:link href="http://rumor.face8ook.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>english</title>
+      <link>http://rumor.face8ook.org/categories/english/</link>
+      <pubDate>Sat, 31 Oct 2020 07:12:03 +0800</pubDate>
+      
+      <guid>http://rumor.face8ook.org/categories/english/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>chinese</title>
@@ -26,15 +31,6 @@
       <pubDate>Sat, 24 Oct 2020 23:35:20 +0800</pubDate>
       
       <guid>http://rumor.face8ook.org/categories/news/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>english</title>
-      <link>http://rumor.face8ook.org/categories/english/</link>
-      <pubDate>Sat, 24 Oct 2020 09:48:25 +0800</pubDate>
-      
-      <guid>http://rumor.face8ook.org/categories/english/</guid>
       <description></description>
     </item>
     
